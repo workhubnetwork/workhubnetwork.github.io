@@ -139,10 +139,12 @@ iframe {
 
 .butt2:hover{
   background-color: grey;
+  text-decoration: underline;
 }
 
 .butt:hover{
-  background-color: #FFA31A;
+  background-color: grey;
+  text-decoration: underline;
 }
 .butt {
   display:inline;
@@ -230,4 +232,5 @@ input[type=text]{
 
 .buttons {
     text-decoration: none;
+    color: black;
 }
