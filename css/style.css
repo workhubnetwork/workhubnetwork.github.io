@@ -48,10 +48,10 @@ a {
 
 .desc {
   position: relative;
-  color: #FC7C24;
+  text-decoration: none;
   padding: 5px;
   text-align: center;
-
+  color: #f90;
   bottom: 4px;
 }
 
