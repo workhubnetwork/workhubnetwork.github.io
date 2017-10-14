@@ -223,3 +223,7 @@ input[type=text]{
   background-color: #0f0f0f;
   margin-bottom: 20px;
 }
+
+.buttons {
+    text-decoration: none;
+}
