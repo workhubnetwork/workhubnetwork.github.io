@@ -188,10 +188,14 @@ input[type=text]{
   padding: 0px 6px;
   float:left;
   display:inline-block;
-  color: #a1a1a1;
+  color: #fff;
   text-align: left;
-
 }
+
+.ac2 {
+ color: #a1a1a1;
+}
+
 .top {
   list-style-type: none;
   margin: 0;
