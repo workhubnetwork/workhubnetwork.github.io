@@ -12,7 +12,7 @@ body {
   font-size: 12px;
 }
 a {
-  color: #f90;
+
   font-size: 14px;
   font-weight: 700;
   line-height: 1.1em;
@@ -136,13 +136,13 @@ iframe {
   top: 25px;
   text-align: center;
   position: relative;
-  
+
   float: right;
 }
 
 .butt2:hover{
   background-color: grey;
-} 
+}
 
 .butt:hover{
   background-color: #FFA31A;
@@ -160,7 +160,7 @@ iframe {
   text-align: center;
   right: 10px;
 }
-.logo { 
+.logo {
   position: relative;
   top:5px;
 }
@@ -193,7 +193,7 @@ input[type=text]{
   display:inline-block;
   color: #a1a1a1;
   text-align: left;
-  
+
 }
 .top {
   list-style-type: none;
@@ -203,7 +203,7 @@ input[type=text]{
   background-color: #111;
   width:100%;
   font-size: 12px;
-  
+
 }
 
 .nav {
