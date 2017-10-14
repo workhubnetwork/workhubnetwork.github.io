@@ -6,4 +6,15 @@ a {
   text-decoration: none;
   background-color: #f90;
   padding: 5px 5px;
+  color:black;
+}
+
+h1,h2,h3 {
+  text-align: center;
+  color: #FC7C24;
+  font-family: fragola;
+}
+
+h3 {
+  font-size: 19px;
 }
