@@ -18,3 +18,9 @@ h1,h2,h3 {
 h3 {
   font-size: 19px;
 }
+
+img {
+ position: relative;
+ left: 60px;
+
+}
