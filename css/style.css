@@ -246,5 +246,5 @@ input[type=text]{
 }
 
 .caption {
-  display: inline-block;
+  display: inline;
 }
