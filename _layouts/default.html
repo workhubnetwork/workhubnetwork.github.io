@@ -1,29 +1,94 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" />
+    
+    <title>
+     {{ page.title }}
+    </title>
+  </head>
+  <body>
+    <ul class="ab">
+      <li class="ac">
+        <a class="aa" href="index.html">
+          <strong>
+            Workhub NETWORK
+          </strong>
+        </a>
+      </li>
+      <li class="ac">
+        <a class="aa" v="" href="#">
+          Workhub
+        </a>
+      </li>
+      <li class="ac">
+        <a class="aa" href="#">
+          RedWork
+        </a>
+      </li>
+      <li class="ac">
+        <a class="aa" href="#">
+          YouWork
+        </a>
+      </li>
+      <li class="ac">
+        <a class="aa" href="#">
+          Work 8
+        </a>
+      </li>
+      <li class="ac">
+        <a class="aa" href="#">
+          Workzilla
+        </a>
+      </li>
+    </ul>
+
+    <div class="search">
+      <img class="logo" src="images/workhubpng.png" style="height: 60px;"/>
+      <input placeholder="Search... SORRY NOT WORKING" maxlength="19" type="text" />
+      <div class="butt2"  type="button">
+        <strong>
+        <a class="buttons" href="underdev.html">  Upload </a>
+        </strong>
+      </div>
+      <div class="butt" type="button">
+        <strong>
+        <a class="buttons" href="underdev.html">  ★ Upgrade</a>
+        </strong>
+      </div>
+      <a href="underdev.html" class="log">
+        Log In
+      </a>
+      <a href="underdev.html"  class="log2">
+        Sign Up</a>
+    </div>
+    <ul class="top">
+      <li class="nav">
+        <a class="nav1" href="index.html">HOME</a>
+      </li>
+      <li class="nav">
+        <a class="nav1" href="#news">WORK VIDEOS ↓</a>
+      </li>
+
+      <li class="nav">
+       <div class="dropdown">
+  <a href="#tim" class="nav1">Catagories</a>
+  <div class="dropdown-content">
+    <a class="nav2" href="#">Link 1</a>
+    <a class="nav2" href="#">Link 2</a>
+    <a class="nav2" href="#">Link 3</a>
+  </div>
+</div>
+      </li>
+
+      <li class="nav">
+        <a class="nav1" href="#about">WORK STARS↓</a>
+      </li>
+      <li class="nav">
+        <a class="nav1" href="#about">ABOUT US</a>
+      </li>
+    </ul>
+	    {{ content }}
+	</body>
+</html>
