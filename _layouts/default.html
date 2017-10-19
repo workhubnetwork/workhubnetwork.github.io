@@ -64,32 +64,39 @@
       <a href="underdev.html"  class="log2">
         Sign Up</a>
     </div>
-    <ul class="top">
-      <li class="nav">
-        <a class="nav1" href="index.html">HOME</a>
-      </li>
-      <li class="nav">
-        <a class="nav1" href="#news">WORK VIDEOS ↓</a>
-      </li>
-
-      <li class="nav">
-       <div class="dropdown">
-  <a href="#tim" class="nav1">Catagories</a>
-  <div class="dropdown-content">
-    <a class="nav2" href="#">Link 1</a>
-    <a class="nav2" href="#">Link 2</a>
-    <a class="nav2" href="#">Link 3</a>
-  </div>
+	  
+    <div class="navbar">
+  <a class="a" href="#home">Home</a>
+  <a class="a" href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Dropdown
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a class="a" href="#">Link 1</a>
+      <a class="a" href="#">Link 2</a>
+      <a class="a" href="#">Link 3</a>
+    </div>
+  </div> 
 </div>
-      </li>
+</body>
+	
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-      <li class="nav">
-        <a class="nav1" href="#about">WORK STARS↓</a>
-      </li>
-      <li class="nav">
-        <a class="nav1" href="#about">ABOUT US</a>
-      </li>
-    </ul>
-	    {{ content }}
-	</body>
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+	
 </html>
