@@ -224,6 +224,8 @@ iframe {
 .search {
   border-bottom: 1px solid #232323;
   background-color: #040404;
+  margin:0px;
+  padding:0px;
 }
 input[type=text]{
   width: 250px;
