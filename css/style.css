@@ -34,7 +34,7 @@ body {
 
 .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 14px;    
+    font-size: 14px;
     border: none;
     outline: none;
     color: white;
@@ -247,7 +247,7 @@ input[type=text]{
 }
 
 .ac {
-  padding: 0px 6px;
+  padding: 6px 16px;
   float:left;
   display:inline-block;
   color: #fff;
@@ -298,5 +298,5 @@ input[type=text]{
 .caption {
   display: inline-block;
   color: white;
+  margin-top: 0xpx;
 }
-
