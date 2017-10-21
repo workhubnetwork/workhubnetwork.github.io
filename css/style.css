@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     background-color: #111;
     font-family: Arial;
-    width:100%
+
 }
 
 .navbar .a {
@@ -227,7 +227,7 @@ iframe {
   background-color: #040404;
   margin:0px;
   padding:0px;
-  width:100%;
+
 }
 input[type=text]{
   width: 250px;
@@ -240,7 +240,6 @@ input[type=text]{
   list-style-type: none;
   margin: 0;
   overflow: hidden;
-  width:100%;
   font-size: 14px;
   background-color: #000;
   border-bottom: 1px solid #232323;
